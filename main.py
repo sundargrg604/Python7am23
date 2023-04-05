@@ -48,6 +48,9 @@
 
 # for x in range(1,20,2):
 #     print(x)
+from typing import Self
+
+
 i = 1
 # while i < 20:
 #     print(i)
@@ -225,3 +228,27 @@ i = 1
 # else:
 #     print('Invalid input')
 #     exit()
+
+
+# class SPI:
+   
+#     def take_value(self):
+#        p = int(input("enter principal: "))
+#        r = int(input("enter rate: "))
+#        t = int(input("enter time: "))
+#        return[p, t, r]  
+    
+
+#     def calculate(self):
+#         p, t, r = self.take_value()
+#         si = (p * t * r)/100
+#         return si
+
+
+#     def display(self):
+#         return f"The simple interest is : {self.calculate()}"
+
+
+# obj = SPI()
+# print(obj.display())
+
